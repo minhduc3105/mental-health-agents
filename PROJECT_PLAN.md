@@ -37,19 +37,14 @@ Day 1-2: Foundation Research
 
 Day 3-4: Problem Definition & Architecture Design
 ├── Viết problem statement (1 trang)
-├── Xác định system scope:
-│   ├── Single-agent chatbot (KHÔNG multi-agent - quá phức tạp cho 2 tháng)
-│   ├── Basic safety layer
-│   ├── Simple RAG knowledge base
-│   └── Basic web interface
 ├── Thiết kế architecture diagram (viết tay/draw.io)
 └── Xác định tech stack:
-    ├── LLM: Claude API / Gateway (đã có sẵn)
+    ├── LLM: OpenRouter (or any provider)
     ├── Framework: LangChain
     ├── Backend: FastAPI
-    ├── Frontend: Streamlit (nhanh hơn React, đủ cho prototype)
-    ├── Database: SQLite (đơn giản, đủ dùng)
-    └── Vector DB: ChromaDB (local, miễn phí)
+    ├── Frontend: React
+    ├── Database: PostgraSQL
+    └── Vector DB: Qdrant
 
 Day 5-7: Setup Development Environment
 ├── Tạo project structure:
@@ -134,6 +129,7 @@ Day 11-14: Knowledge Base Planning
 ```
 
 ### Deliverables Phase 1:
+
 - [ ] Literature review notes (5-10 pages)
 - [ ] SPEC.md document
 - [ ] Architecture diagram
@@ -262,6 +258,7 @@ Day 26-28: Assessment Module
 ```
 
 ### Deliverables Phase 2:
+
 - [ ] Main chat agent với conversation management
 - [ ] RAG knowledge base (40+ documents)
 - [ ] Safety layer với 4 risk levels
@@ -385,6 +382,7 @@ Day 39-42: Safety Layer Refinement
 ```
 
 ### Deliverables Phase 3:
+
 - [ ] Working Streamlit web interface
 - [ ] 80-100 knowledge base documents
 - [ ] Refined safety layer
@@ -471,6 +469,7 @@ Day 47-49: User Testing (Small Scale)
 ```
 
 ### Deliverables Phase 4:
+
 - [ ] Test reports
 - [ ] Expert evaluation results
 - [ ] User study results (5-10 users)
@@ -563,6 +562,7 @@ Day 53-56: Thesis Chapter Drafts
 ```
 
 ### Deliverables Phase 5:
+
 - [ ] Complete README.md
 - [ ] Technical documentation
 - [ ] Chapter 1-3 drafted
@@ -575,15 +575,15 @@ Day 53-56: Thesis Chapter Drafts
 
 ## Milestone Summary
 
-| Milestone | Day | Deliverable |
-|-----------|-----|-------------|
-| **M1** | Day 14 | SPEC.md, Environment ready, Architecture defined |
-| **M2** | Day 21 | Core agent working, Basic RAG |
-| **M3** | Day 28 | Safety layer v1, Assessment module |
-| **M4** | Day 35 | Web interface working, System integrated |
-| **M5** | Day 42 | Knowledge base expanded, Safety refined |
-| **M6** | Day 49 | Testing complete, User study done |
-| **M7** | Day 56 | Documentation complete, Thesis drafted |
+| Milestone | Day    | Deliverable                                      |
+| --------- | ------ | ------------------------------------------------ |
+| **M1**    | Day 14 | SPEC.md, Environment ready, Architecture defined |
+| **M2**    | Day 21 | Core agent working, Basic RAG                    |
+| **M3**    | Day 28 | Safety layer v1, Assessment module               |
+| **M4**    | Day 35 | Web interface working, System integrated         |
+| **M5**    | Day 42 | Knowledge base expanded, Safety refined          |
+| **M6**    | Day 49 | Testing complete, User study done                |
+| **M7**    | Day 56 | Documentation complete, Thesis drafted           |
 
 ---
 
@@ -935,6 +935,6 @@ TRƯỚC KHI BẮT ĐẦU NGÀY 1:
 
 ---
 
-*Document created for thesis project planning*
-*Timeline: 8 weeks (2 months)*
-*Last updated: Current date*
+_Document created for thesis project planning_
+_Timeline: 8 weeks (2 months)_
+_Last updated: Current date_

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "pdf-reader": {
+      "command": "node",
+      "args": ["D:\\tools\\pdf-extractor.js"],
+      "env": {}
+    }
+  }
+}
